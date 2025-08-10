@@ -22,7 +22,7 @@ namespace XWeather
         static async Task Main(string[] args)
         {
             Timer timer = new Timer(async _ => await PostWeatherUpdate(), null, TimeSpan.Zero, TimeSpan.FromHours(1));
-            Console.WriteLine("🟢 XWeather bot is running... Press Enter to exit.");
+            Console.WriteLine("🟢 XWeather bot is running... successfully Press Enter to exit.");
             Console.ReadLine();
         }
 

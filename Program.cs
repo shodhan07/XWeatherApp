@@ -33,7 +33,7 @@ namespace XWeather
                 var weatherData = await GetWeatherDataAsync("Bengaluru");
                 if (weatherData == null || weatherData.Main == null || weatherData.Weather == null || weatherData.Weather.Length == 0)
                 {
-                    Console.WriteLine("❌ Weather data is incomplete.");
+                    Console.WriteLine("⚔️ Weather data is incomplete.");
                     return;
                 }
 
